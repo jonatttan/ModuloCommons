@@ -18,5 +18,13 @@
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "ModuloCommons/Classes/**/*"
+  "source_files": "ModuloCommons/Classes/**/*",
+  "dependencies": {
+    "Alamofire": [
+      "~> 5.2"
+    ],
+    "AlamofireImage": [
+      "~> 4.1"
+    ]
+  }
 }

@@ -1,17 +1,26 @@
 PODS:
+  - Alamofire (5.4.2)
+  - AlamofireImage (4.2.0):
+    - Alamofire (~> 5.4)
   - FBSnapshotTestCase (2.1.4):
     - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - ModuloCommons (0.1.0)
+  - ModuloCommons (0.1.0):
+    - Alamofire (~> 5.2)
+    - AlamofireImage (~> 4.1)
 
 DEPENDENCIES:
+  - Alamofire (~> 5.2)
+  - AlamofireImage (~> 4.1)
   - FBSnapshotTestCase (~> 2.1.4)
   - ModuloCommons (from `../`)
 
 SPEC REPOS:
   trunk:
+    - Alamofire
+    - AlamofireImage
     - FBSnapshotTestCase
 
 EXTERNAL SOURCES:
@@ -19,9 +28,11 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
+  Alamofire: bfbc4c2fe5909b1d94fb4ef2277c6b3727ef5dae
+  AlamofireImage: 34a2d90b0e5fe6a5605f85ae4b7b01e784c60192
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  ModuloCommons: 86274db107bd62d69b71455d2efb19b5ede4f878
+  ModuloCommons: 750c5920a687cfc98462a253ff46b9b5abcc475e
 
-PODFILE CHECKSUM: 3763ca7f1d572cabae47513e6282cbdc7273fbee
+PODFILE CHECKSUM: 0bf9860d4fa00f7a3d3ed3827a8328d7bce182ea
 
 COCOAPODS: 1.10.1
