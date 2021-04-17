@@ -7,11 +7,15 @@
 //
 
 import UIKit
+import ModuloCommons
 
 class ViewController: UIViewController {
-
+    @IBOutlet weak var btTeste: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        btTeste.backgroundColor = UIColor.corPrimaria()
+        btTeste.setTitleColor(UIColor.corTexto(), for: .normal)
         // Do any additional setup after loading the view, typically from a nib.
     }
 
