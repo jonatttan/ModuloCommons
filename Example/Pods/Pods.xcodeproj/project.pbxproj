@@ -57,6 +57,7 @@
 		7D3DD4A8BB36733BA15868F7FB8C56CE /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 93E96979AEF0E2F0AFBC78A2B74D0D2D /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		879F02C85701A85EB69DF847EFC94277 /* AFIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A63C5D2A6B4183FE0F0F59518A313A /* AFIError.swift */; };
 		88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E738E55555FE3589B1856C25ECA63A1 /* FBSnapshotTestController.m */; };
+		891C3481262C9F800026EA76 /* ExtensionValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891C3480262C9F7F0026EA76 /* ExtensionValues.swift */; };
 		8AA937910F87915DE700CAB6C868689E /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDD5739B482C060E9B9954087505219 /* Notifications.swift */; };
 		8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 895BF1FE9E3A584831D03B0AE20FFBBE /* FBSnapshotTestCase.m */; };
 		90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 89DA588F07E16BA4AB0F4431E516CDF5 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -235,6 +236,7 @@
 		7B6071EC18E4630D93FE680CF32AB39E /* Pods-ModuloCommons_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ModuloCommons_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		7FE89C467E2993ACCE494B91BF5951CF /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
 		85F2DA9D4C872F361F80EE01DEA670B8 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
+		891C3480262C9F7F0026EA76 /* ExtensionValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionValues.swift; sourceTree = "<group>"; };
 		895BF1FE9E3A584831D03B0AE20FFBBE /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
 		89DA588F07E16BA4AB0F4431E516CDF5 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
 		8CF61E0D7055ACB6F089FC9E4720B060 /* CachedResponseHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CachedResponseHandler.swift; path = Source/CachedResponseHandler.swift; sourceTree = "<group>"; };
@@ -496,6 +498,7 @@
 			isa = PBXGroup;
 			children = (
 				17CCDCDBA383BFB88279C1E8ED771AD7 /* PaletaDeCores.swift */,
+				891C3480262C9F7F0026EA76 /* ExtensionValues.swift */,
 			);
 			name = View;
 			path = ModuloCommons/Classes/View;
@@ -1034,6 +1037,7 @@
 			files = (
 				286F893ACB4F039F7940E382FC4AECFF /* DadosChamadaApi.swift in Sources */,
 				9F2DEF2D704D8AA8FB891824AE5DC5EC /* Erros.swift in Sources */,
+				891C3481262C9F800026EA76 /* ExtensionValues.swift in Sources */,
 				F45D5C9A5A2F9E5F1DFC8A51B3C22AB6 /* InfoMoedaAPI.swift in Sources */,
 				285A9D60617CCA378B5C321594D89593 /* ModuloCommons-dummy.m in Sources */,
 				731D995CACE3886ED729DE8A868F8A2E /* MoedaInfo.swift in Sources */,
