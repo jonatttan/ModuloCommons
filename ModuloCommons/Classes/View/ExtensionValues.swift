@@ -8,9 +8,9 @@
 import Foundation
 
 // Formatador de valores
-extension Double {
+public extension Double {
     
-    var num: String { return formatadorDolar(valor: self) }
+    var formatDolar: String { return formatadorDolar(valor: self) }
     
     func formatadorDolar(valor: Double) -> String {
         let valorNS = NSNumber(value: valor)
