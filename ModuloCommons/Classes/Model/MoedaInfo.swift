@@ -7,7 +7,7 @@
 import Foundation
 
 // MARK: - MoedaInfoElement
-struct MoedaInfoElement: Codable {
+public struct MoedaInfoElement: Codable {
     let assetID, name: String
     let typeIsCrypto: Int
     let dataStart, dataEnd, dataQuoteStart, dataQuoteEnd: String
