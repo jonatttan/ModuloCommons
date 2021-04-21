@@ -11,9 +11,12 @@ import AlamofireImage
 
 public class DataImage: NSObject {
  
-    public func requestImageUrl(_ imagem: String) -> URL? {
+    public func requestImageUrl(_ imagem: String, _ tamanho: Int = 1) -> URL? {
         let nameImage = imagem.replacingOccurrences(of: "-", with: "", options: .regularExpression)
-        let url = ("\(DadosChamadaApi.urlImagem)png_64/\(nameImage).png")
+        var url = ("\(DadosChamadaApi.urlImagem)png_64/\(nameImage).png")
+        if tamanho == 2 {
+            url = ("\(DadosChamadaApi.urlImagem)png_32/\(nameImage).png")
+        }
         guard let urlTratada = URL(string: url) else { return nil }
         return urlTratada
     }
