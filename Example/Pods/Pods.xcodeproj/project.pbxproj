@@ -58,6 +58,7 @@
 		879F02C85701A85EB69DF847EFC94277 /* AFIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A63C5D2A6B4183FE0F0F59518A313A /* AFIError.swift */; };
 		88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E738E55555FE3589B1856C25ECA63A1 /* FBSnapshotTestController.m */; };
 		891C3481262C9F800026EA76 /* ExtensionValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891C3480262C9F7F0026EA76 /* ExtensionValues.swift */; };
+		89C3D764262FB2BF002853EB /* DataImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C3D763262FB2BF002853EB /* DataImage.swift */; };
 		8AA937910F87915DE700CAB6C868689E /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDD5739B482C060E9B9954087505219 /* Notifications.swift */; };
 		8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 895BF1FE9E3A584831D03B0AE20FFBBE /* FBSnapshotTestCase.m */; };
 		90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 89DA588F07E16BA4AB0F4431E516CDF5 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -238,6 +239,7 @@
 		85F2DA9D4C872F361F80EE01DEA670B8 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
 		891C3480262C9F7F0026EA76 /* ExtensionValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionValues.swift; sourceTree = "<group>"; };
 		895BF1FE9E3A584831D03B0AE20FFBBE /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		89C3D763262FB2BF002853EB /* DataImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataImage.swift; sourceTree = "<group>"; };
 		89DA588F07E16BA4AB0F4431E516CDF5 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
 		8CF61E0D7055ACB6F089FC9E4720B060 /* CachedResponseHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CachedResponseHandler.swift; path = Source/CachedResponseHandler.swift; sourceTree = "<group>"; };
 		8FBFF2B40DF32C5CA3395466FDF6BE32 /* FBSnapshotTestCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.debug.xcconfig; sourceTree = "<group>"; };
@@ -640,6 +642,7 @@
 				DC49A4BF8599F0EEB02C8A551A7E63AD /* DadosChamadaApi.swift */,
 				D7C8D2F516BDFEC960C77633A20EADDF /* Erros.swift */,
 				C50121493DB7E2CBBC2703FB6FF091F0 /* MoedaInfo.swift */,
+				89C3D763262FB2BF002853EB /* DataImage.swift */,
 			);
 			name = Model;
 			path = ModuloCommons/Classes/Model;
@@ -1042,6 +1045,7 @@
 				285A9D60617CCA378B5C321594D89593 /* ModuloCommons-dummy.m in Sources */,
 				731D995CACE3886ED729DE8A868F8A2E /* MoedaInfo.swift in Sources */,
 				2671475DB66FF2D78086E0023FDEEE63 /* PaletaDeCores.swift in Sources */,
+				89C3D764262FB2BF002853EB /* DataImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
